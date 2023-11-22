@@ -11,7 +11,7 @@ Responsible for implementing pyro models.
 3.Avni Jain (2020B1A7PS1947G):- 
 Plotting the various graphs that show the results of our models.
 Responsible for implementing pyro models.
-Responsible for testing Arima model against climate dataset.
+Responsible for testing pyro model against linear regression for climate dataset.
 
 4.Saksham Tripathi (2021A7PS2477G):-
 Responsible for writing the code for evaluation of the various pyro models through backtesting and 
