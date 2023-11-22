@@ -1,0 +1,17 @@
+1.Divyaroop Sahoo (2021A7PS2093G):-
+Responsible for researching python models to compare our pyro models against and implementing them.
+Search for appropriate datasets for testing and training.
+
+2.Darsh Doshi (2021A7PS2836G):-
+Explore and integrate Pyro into the existing models, leveraging its probabilistic programming capabilities.
+Handled documentation of the entire project, creating the report and the github repository.
+Responsible for implementing pyro models.
+
+3.Avni Jain (2020B1A7PS1947G):- 
+Plotting the various graphs that show the results of our models.
+Responsible for implementing pyro models.
+
+4.Saksham Tripathi (2021A7PS2477G):-
+Responsible for writing the code for evaluation of the various pyro models through backtesting and 
+plotting the dataset and displaying its salient features that make it relevant to popl
+Responsible for implementing ARIMA models.
