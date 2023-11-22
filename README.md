@@ -1,7 +1,7 @@
 
 # README for ARIMA Forecasting and Pyro Models
 
-Q1## Problem Statement
+## Problem Statement
 
 
 
@@ -9,7 +9,7 @@ The project focuses on time series forecasting for gasoline prices, employing a 
 
 
 
-Q2## Software Architecture
+## Software Architecture
 
 The code is written in Python and utilizes Jupyter notebooks. The main components include:
 - **ARIMA Forecasting:** Utilizes the `statsmodels` library to implement an ARIMA model for time series forecasting.
@@ -36,7 +36,7 @@ Seasonality patterns are presented with a focus on Pyro's role in enhancing the 
 
 
   
-Q3## POPL Aspects
+## POPL Aspects
 
 
 Probabilistic Programming (Pyro): The integration of Pyro introduces a probabilistic approach to forecasting, capturing uncertainty in predictions through Bayesian modeling.
@@ -86,7 +86,7 @@ These lines collectively demonstrate how the code incorporates various POPL aspe
 
 
 
-Q$## Results and Tests
+## Results and Tests
 
 The code includes visualization of the data, predictions, and evaluation metrics for different models. The ARIMA model, linear regression, and Pyro-based models are compared using CRPS, MAE, and RMSE metrics. Visualizations include time series plots and forecast comparisons.
 //result of linear reg
