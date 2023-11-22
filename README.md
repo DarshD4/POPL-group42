@@ -91,41 +91,55 @@ These lines collectively demonstrate how the code incorporates various POPL aspe
 The code includes visualization of the data, predictions, and evaluation metrics for different models. The ARIMA model, linear regression, and Pyro-based models are compared using CRPS, MAE, and RMSE metrics. Visualizations include time series plots and forecast comparisons.
 //result of linear reg
 
+![linear eg1](https://github.com/DarshD4/POPL-group42/assets/142094108/f7335348-20a8-4643-a5ac-ca735ec07674)
 
 
 // zooming in on the predict vs test section highlighted in orange
 
+![linear reg2](https://github.com/DarshD4/POPL-group42/assets/142094108/995141f8-b10d-4798-8573-a400fdfc5580)
 
 
 //line plot of residuals in ARIMA
+![rsidual 1](https://github.com/DarshD4/POPL-group42/assets/142094108/8ec07d85-1204-4d88-b12c-5d5eb3132034)
 
 // density plot of residuals
 
+![residual2](https://github.com/DarshD4/POPL-group42/assets/142094108/02982ce6-7253-4b4f-ac61-bfe682bf244e)
 
 // autocorrelation plot of residuals
+![residual 3](https://github.com/DarshD4/POPL-group42/assets/142094108/c8d3346d-ebfe-4384-842c-3a7468750bfc)
 
 
-// jusing rolling forecasting ARIMA model
+// using rolling forecasting ARIMA model
+![arima 1](https://github.com/DarshD4/POPL-group42/assets/142094108/c3612618-3845-432a-8784-3e05b980ed88)
 
 // plotting ARIMA forecast vs actual values
+![arima 2](https://github.com/DarshD4/POPL-group42/assets/142094108/6d963389-8fa1-40dc-99b4-5e29ae368611)
 
 //Pyro model1
+![pyro model1](https://github.com/DarshD4/POPL-group42/assets/142094108/470291a9-643f-4ba0-905b-da1c56b6bf4f)
 
-//Pyro model1 close up
+//Pyro model1 close up![pyro model1 2](https://github.com/DarshD4/POPL-group42/assets/142094108/5d69af8b-8c43-4f5a-9610-f08d8a1cceb0)
+
+
 
 
 // pyro model2
-
+![pyro model2 1](https://github.com/DarshD4/POPL-group42/assets/142094108/158f5071-2832-4330-a867-e8ddc345274a)
 
 //zoom in on the predict vs test portion
+![pyro model2 2](https://github.com/DarshD4/POPL-group42/assets/142094108/995b4a69-cdcf-49b5-bff7-9046f6d405cf)
 
 //pyro model 3
+![pyro model 3 1](https://github.com/DarshD4/POPL-group42/assets/142094108/9c841ac8-3d61-46a7-b732-185191e24dd3)
 
 
 //pyro model 3 close-up
+![pyro model3 2](https://github.com/DarshD4/POPL-group42/assets/142094108/cfd90d75-499d-4c86-bb18-c24b9bf53539)
 
 // evaluating model performance using backtesting
 
+![backtest](https://github.com/DarshD4/POPL-group42/assets/142094108/5fc29ef6-d9ca-456b-ba3d-7e90dd938234)
 
 Q5## Potential for Future Work
 
