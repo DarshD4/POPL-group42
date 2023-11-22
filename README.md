@@ -15,6 +15,15 @@ The code is written in Python and utilizes Jupyter notebooks. The main component
 
 The integration of Pyro is highlighted in the architecture, emphasizing how probabilistic programming augments the forecasting models. The flexibility of Pyro is showcased, aligning with the principle of modularity. Python's data science libraries, coupled with Pyro, foster a comprehensive approach to capturing uncertainty in the gasoline price forecasting process. We leverage the collaborative environment provided by various IPython Notebook handlers like Jupyter Notebooks and Google Collab to integrate our contributions. Key components include data preprocessing, exploratory data analysis, and the implementation of time series forecasting models. The code is modular, with dedicated sections for data visualization, linear regression, ARIMA modeling, and Pyro-based forecasting. The input dataset, "gasoline.csv," promotes simplicity and ease of reproducibility. The architecture, balancing accessibility and functionality, is well-suited for educational purposes and exploratory analysis.
 
+
+### Graphs for Enhanced Understanding
+
+- **Dataset Overview:** A graph emphasizing the probabilistic nature of the dataset, aligning with the use of Pyro for uncertainty
+![dataset 1](https://github.com/DarshD4/POPL-group42/assets/142094108/c4e4e610-e78a-4132-a78c-22a4880bf62e)
+
+...
+![dataset 2](https://github.com/DarshD4/POPL-group42/assets/142094108/c0702bae-5f7c-4699-964c-b84a0e7266fb)
+
 ## POPL Aspects
 
 
@@ -63,13 +72,6 @@ Probabilistic Programming (Pyro):
 The sections related to Pyro models (lines 39-58 and beyond) demonstrate the modular integration of probabilistic programming, aligning with the modularity principle.
 These lines collectively demonstrate how the code incorporates various POPL aspects, emphasizing both linear regression and probabilistic programming principles.
 
-### Graphs for Enhanced Understanding
-
-- **Dataset Overview:** A graph emphasizing the probabilistic nature of the dataset, aligning with the use of Pyro for uncertainty
-![dataset 1](https://github.com/DarshD4/POPL-group42/assets/142094108/c4e4e610-e78a-4132-a78c-22a4880bf62e)
-
-...
-![dataset 2](https://github.com/DarshD4/POPL-group42/assets/142094108/c0702bae-5f7c-4699-964c-b84a0e7266fb)
 
 Results and Tests
 
