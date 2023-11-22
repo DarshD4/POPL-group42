@@ -15,6 +15,54 @@ The code is written in Python and utilizes Jupyter notebooks. The main component
 
 The integration of Pyro is highlighted in the architecture, emphasizing how probabilistic programming augments the forecasting models. The flexibility of Pyro is showcased, aligning with the principle of modularity. Python's data science libraries, coupled with Pyro, foster a comprehensive approach to capturing uncertainty in the gasoline price forecasting process. We leverage the collaborative environment provided by various IPython Notebook handlers like Jupyter Notebooks and Google Collab to integrate our contributions. Key components include data preprocessing, exploratory data analysis, and the implementation of time series forecasting models. The code is modular, with dedicated sections for data visualization, linear regression, ARIMA modeling, and Pyro-based forecasting. The input dataset, "gasoline.csv," promotes simplicity and ease of reproducibility. The architecture, balancing accessibility and functionality, is well-suited for educational purposes and exploratory analysis.
 
+## POPL Aspects
+
+
+Probabilistic Programming (Pyro): The integration of Pyro introduces a probabilistic approach to forecasting, capturing uncertainty in predictions through Bayesian modeling.
+
+Time Series Analysis (ARIMA): The ARIMA model is employed to analyze and forecast time-dependent patterns, considering autocorrelation and seasonality in the data.
+
+Data Visualization: Matplotlib is used for data visualization, aligning with the importance of conveying insights through clear and informative plots.
+
+Backtesting Methodologies: The inclusion of backtesting techniques addresses the need for robust model evaluation, ensuring predictive capabilities extend beyond training data.
+
+Modular Code Design: The code is structured into modular sections, promoting code readability, reusability, and ease of maintenance.
+
+
+
+Probabilistic Programming (Pyro): The use of Pyro for probabilistic programming aligns with principles related to uncertainty modeling and Bayesian methods.
+
+Modularity: The modular design of the code, as seen in the distinct sections for linear regression, ARIMA modeling, and Pyro-based forecasting, reflects a principle of modularity, promoting code organization and reusability.
+
+Data Abstraction: The project involves abstracting and manipulating data, adhering to principles of data abstraction common in programming languages.
+
+Error Handling: Principles related to error handling and robustness may be evident in how the code deals with exceptions, especially in the backtesting and evaluation stages.
+
+Readability: The use of clear variable names, comments, and structured code contributes to readability, a fundamental principle in programming languages design.
+
+Testing Methodologies: Backtesting and model evaluation methodologies showcase a commitment to testing and validating the robustness of the implemented models.
+
+Interactive Development Environment: The use of Jupyter Notebooks and Google Colaboratory aligns with principles of interactive programming environments, facilitating exploratory analysis and collaborative development.
+
+Pyro Forecasting Models
+Probabilistic Programming (Pyro):
+
+Lines 39-58: The entire block involves defining and fitting Pyro models. The use of Pyro is explicit here, adhering to the probabilistic programming principles.
+Backtesting and Evaluation:
+
+Line 70: print("CRPS: ", crps(y_test, y_pred_dists)) - This line calculates and prints the Continuous Ranked Probability Score (CRPS), a metric that emphasizes the probabilistic nature of predictions from Pyro models.
+Data Visualization
+Data Visualization:
+Lines 33-44: These lines involve plotting time series, residuals, and other visualizations. While not explicitly probabilistic, visualizations play a crucial role in understanding uncertainty and model performance.
+Overall Project Structure
+Modular Code Design:
+
+The code is structured into sections dedicated to different aspects of the project, adhering to the principle of modularity. Each section focuses on a specific modeling approach (linear regression, ARIMA, Pyro), making the code more readable and maintainable.
+Probabilistic Programming (Pyro):
+
+The sections related to Pyro models (lines 39-58 and beyond) demonstrate the modular integration of probabilistic programming, aligning with the modularity principle.
+These lines collectively demonstrate how the code incorporates various POPL aspects, emphasizing both linear regression and probabilistic programming principles.
+
 ### Graphs for Enhanced Understanding
 
 - **Dataset Overview:** A graph emphasizing the probabilistic nature of the dataset, aligning with the use of Pyro for uncertainty
