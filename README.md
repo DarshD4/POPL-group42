@@ -128,7 +128,7 @@ Given more time, potential areas for improvement and expansion include:
 - **Ensemble Methods:** Explore ensemble methods to combine predictions from multiple models for better forecasting accuracy.
 - **Feature Engineering:** Experiment with additional features or transformations to improve model understanding and predictive power.
 - **Dynamic Model Updating:** Implement dynamic model updating to adapt models to changing patterns in the data.
-
+- **Further work on the other mentioned databases** Implement and more accurately plot results for arima vs linear regression and linear regression vs pyro models in other datasets.
 ## Experience and Difficulties
 
 - **ARIMA Complexity:** ARIMA models require careful selection of parameters, and tuning them for optimal performance can be challenging.
