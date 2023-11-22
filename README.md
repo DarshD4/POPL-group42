@@ -141,7 +141,7 @@ The code includes visualization of the data, predictions, and evaluation metrics
 
 ![backtest](https://github.com/DarshD4/POPL-group42/assets/142094108/5fc29ef6-d9ca-456b-ba3d-7e90dd938234)
 
-Q5## Potential for Future Work
+## Potential for Future Work
 
 Given more time, potential areas for improvement and expansion include:
 
